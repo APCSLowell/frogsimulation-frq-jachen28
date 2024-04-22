@@ -36,16 +36,12 @@ return false;
 	
 	public double runSimulations(int num)
 	{ 
-int sum = 0;
-int runs = 0;
-while(runs < num){
-if(simulate() == true){
-	sum++;
-}
-	runs++;
-}
-return (double) sum/num;
-}
+double successes = 0;
+for(int i = 0; i < num; i++)
+if(simulate() == true)
+successes++;
+return successes/num;
+
 	
 	}
 	
