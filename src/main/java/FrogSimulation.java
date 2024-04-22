@@ -22,12 +22,14 @@ distance = distance + hopDistance();
 hops++;
 	if(distance < 0){
 return false; 
+}
+else 
 	if(distance >= goalDistance){
 return true;
 	}
-return false;
 }
-
+return false;
+	}
 
 	public double runSimulations(int num)
 	{ 
