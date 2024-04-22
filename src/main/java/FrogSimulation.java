@@ -114,3 +114,4 @@ return successes/num;
 		this.row = 0;
 		this.col = 0;
 	}
+}
