@@ -22,7 +22,7 @@ distance = distance + hopDistance();
 hops++;
 
 	if(distance >= goalDistance){
-return true
+return true;
 	}
 return false;
 }
