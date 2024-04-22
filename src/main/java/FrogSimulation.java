@@ -38,7 +38,7 @@ if(simulate() == true){
 }
 	runs++;
 }
-return (double)num/sum;
+return (double)sum/num;
 }
 	
 	}
