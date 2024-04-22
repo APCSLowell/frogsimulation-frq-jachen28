@@ -97,9 +97,11 @@ return (double)sum/num;
 		}
 	}
 	
-	public void setPart(String letter ){
+	public void setPart(String letter)
+	{
 		this.part = letter;
 	}
+
 	
 	public void setHopValues(int[] hopValues)
 	{
@@ -117,4 +119,4 @@ return (double)sum/num;
 	
 	
 	
-} 
+ 
