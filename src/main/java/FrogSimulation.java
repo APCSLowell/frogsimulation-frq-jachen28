@@ -44,7 +44,7 @@ if(simulate() == true){
 }
 	runs++;
 }
-return sum/num;
+return (double) sum/num;
 }
 	
 	}
